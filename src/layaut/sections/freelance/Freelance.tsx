@@ -3,15 +3,16 @@ import styled from "styled-components";
 import {SectionTitle} from "../../../components/SectionTitle";
 import {Button} from "../../../components/Button";
 
-export const Frieelance = () => {
+export const Freelance = () => {
     return (
-        <StyledFrieelance>
+        <StyledFreelance>
             <SectionTitle>I Am Available For Freelance</SectionTitle>
-            <Button></Button>
-        </StyledFrieelance>
+            <Button>Hire me</Button>
+        </StyledFreelance>
     );
 };
 
-const  StyledFrieelance = styled.section`
-    
+const  StyledFreelance = styled.section`
+    background-color: darkgray;    
+    min-height: 30vh;
 `
